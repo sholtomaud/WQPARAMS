@@ -1,0 +1,15 @@
+{
+	"parameter_name": "",
+	"foreign_table_multiple_lines": 1,
+	"elements": [{
+		"foreign_key_field": 1,
+		"hydstra_mappings": [{
+			"field": "varnum",
+			"table": "variable"
+      "value_mappings":{
+        
+      }
+      }
+        ]
+        }]
+}
