@@ -1,6 +1,6 @@
 var mongoose = require('mongoose');
 
-var tenderSchema = new mongoose.Schema({
+var WQSchema = new mongoose.Schema({
   parameter_name: String,
   cas_no: String,
   units : String,
@@ -28,4 +28,4 @@ var tenderSchema = new mongoose.Schema({
   tags : [String]
 });
 
-module.exports = mongoose.model('Tender', tenderSchema);
+module.exports = mongoose.model('wqparam', WQSchema);
